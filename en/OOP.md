@@ -8,10 +8,45 @@
 
 4. You want to use a *class* because you will be changing different variables  of the players. To create a class, open the script "PlayerMover". Underneath the `using` statements and above the `public class playerMover : MonoBehavior` you will create a class. This code will create a class: 
 
-    ``` csharp
+    ```csharp
     public class Player
     {
         
     }
     ```
-5. Now you need to 
+5. Now you need to add the variables that will make up a player. 
+    
+    ```csharp
+    public string         name;
+    
+    public GameObject     sprite;
+    public SpriteRenderer spriteRenderer;
+    public Rigidbody2D    rigidbody;
+    public Animator       animator;
+
+    public char           direction;
+    public bool           jumping;
+    public float          jumppower, movespeed, powerupTime;
+    ```
+    
+6. Finally, you need to create a *constructor*. A *Constructor* *constructs* (creates/makes) an object when you call the class. A *constructor* is a method (a function in a class) that has the same name as the *class* and it will set all of the variables for that object. Add this constructor to the class:
+
+    ```csharp
+    public Player(string playerName)
+    {
+        name = playerName;
+        sprite = GameObject.Find(playerName);
+        spriteRenderer = sprite.GetComponent<SpriteRenderer>();
+        rigidbody = sprite.GetComponent<Rigidbody2D>();
+        animator = sprite.GetComponent<Animator>();
+        jumping = false;
+        jumppower = 500.0f;
+        movespeed = 2f;
+        powerupTime = 0.0f;
+
+        if (playerName == "cat")
+            direction = 'L';
+        else
+            direction = 'R';
+    }
+    ```
