@@ -14,3 +14,5 @@ The animator file looks like: ![](/assets/animator.png) The animation file looks
 6. You can add more *animations* to the **Animator** by dragging the animation file into the **Animator**.
 
 7. You can right click the different animations in an **Animator** and set them to "Set as Layer Default State" and run the program to see your different animations!
+
+8. To play different *animations* with scripts, you just need to get a sprite's **Animator** and use the code `Animator.Play('the name of the animation')`.
