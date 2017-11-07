@@ -50,3 +50,4 @@
             direction = 'R';
     }
     ```
+7. That's it you created a class! The "PlayerMover" script will use this class to move the two different players. 
