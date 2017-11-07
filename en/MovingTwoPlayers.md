@@ -20,7 +20,8 @@
     mover(dog, KeyCode.A, KeyCode.D, KeyCode.W);
     mover(cat, KeyCode.LeftArrow, KeyCode.RightArrow, KeyCode.UpArrow);
     ```
+    ![https://docs.unity3d.com/ScriptReference/KeyCode.html](/assets/directions.png)
     
     * Note - You can change these KeyCodes to whatever keys you want them to be! Here is a list of KeyCodes: [dojo.soy/UnityKeyCodes](https://docs.unity3d.com/ScriptReference/KeyCode.html)
-    
-4. 
+       
+4. Now you can move the two different sprites at the same time! Try it out!
