@@ -9,7 +9,7 @@
 
 5. You can use the "levelsmenu" scene that I already created, but feel free to change it up so it looks how you want it to! 
 
-6. Switch to the "mainmenu" scene. You will make the buttons work now! To do this you will need to make a script. Replace `Start()` and `Update()` with
+6. Switch to the "mainmenu" scene. You will make the buttons work now! To do this, create a new C# script . Replace `Start()` and `Update()` with
     
     ```csharp
     public void nextScene(string scene)
@@ -22,7 +22,7 @@
     
 7. Now create an empty object and name it "buttonController". Attach the script you just created to it.
 
-8. Go to the **Inspector** for your "play" button and find the "Button (Script)" property. Drag the "buttonController" object from the **Hierarchy** to the bottom left box in the **On Click ()** property. Where it says **No Function**, click the frop down and select *buttonController*, then select *nextScene(string)*. Finally, write the name of the scene you want to switch to in the bottom right box. It should look like this if youve done it correctly:
+8. Go to the **Inspector** for your "play" button and find the "Button (Script)" property. Drag the "buttonController" object from the **Hierarchy** to the bottom left box in the **On Click ()** property. Where it says **No Function**, click the drop down and select the script you created earlier, then select *nextScene(string)*. Finally, write the name of the scene you want to switch to in the bottom right box. It should look like this if youve done it correctly:
 
     ![](/assets/onclick.png)
     

@@ -6,7 +6,7 @@
 
 3. When you create a template, you need to choose between a *Structure* (struct) or a *class*. The most important difference is that a *class* is a *reference type* and a *struct* is a *value type*. Basically, this means you can access a value in a struct, and in a *class* you can access the value and change it. 
 
-4. You want to use a *class* because you will be changing different variables  of the players. To create a class, open the script "PlayerMover". Underneath the `using` statements and above the `public class playerMover : MonoBehavior` you will create a class. This code will create a class: 
+4. You want to use a *class* because you will be changing different variables  of the players. To create a class, open the script "PlayerController". Underneath the `using` statements and above the `public class playerMover : MonoBehavior` you will create a class. This code will create a class: 
 
     ```csharp
     public class Player
