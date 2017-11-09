@@ -13,7 +13,7 @@
 
 5. Open the "evilCat"'s **Inspector** and click (*Add Component > Physics 2D > Edge Collider 2D*). Since it is night in this scene, evil cat can't see that far. So, in evil cat's **Inspector** click the box left to **Edit Collider**. Now move the two ends of the line so they are above the platform evil cat is on. It should look like this:
 
-    ![](en/assets/evil cat.png)
+    ![](/assets/evil cat.png)
     
 6. The last step is to add some more code to the "Collisions" script. change the if statement in `OnCollisionEnter2D(collision col)` from
 
