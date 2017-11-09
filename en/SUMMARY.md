@@ -7,5 +7,6 @@
 * [Arrays](arrays.md)
 * [Making Menus](MakingMenus.md)
 * [Add to Your Platformer](AddtoYourPlatformer.md)
+* [WebGL](webgl.md)
 * [Extra Additions!](extra-additions.md)
 
