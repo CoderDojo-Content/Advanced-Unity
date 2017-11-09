@@ -1,4 +1,4 @@
-#Summary
+# Summary
 
 * [Getting Setup](README.md)
 * [Animations](Animation.md)
@@ -7,6 +7,5 @@
 * [Arrays](arrays.md)
 * [Making Menus](MakingMenus.md)
 * [Add to Your Platformer](AddtoYourPlatformer.md)
-
-
+* [Extra Additions!](extra-additions.md)
 
