@@ -8,9 +8,13 @@
     
 3. Make your own powerups! You can use the same process as the speed up powerup. Try to make your player bigger or smaller!
 
+    * Note: There are some extra coins in the "prefabs" folder for you to use!
+    ![](/assets/pinkPowerup.png) ![](/assets/redPowerup.png)
+
 4. Try to make the platformer a side scroller. 
 
     * Hint: You can make it seem like the player is moving by creating the prefab on one side of the screen then moving it to the other. (Remember to destroy the platform when it's off the screen!)
+       
        
 5. Make a portal that transports the player from one side of the map to another!
 
