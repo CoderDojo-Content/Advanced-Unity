@@ -9,7 +9,7 @@
 3. Make your own powerups! You can use the same process as the speed up powerup. Try to make your player bigger or smaller!
 
     * Note: There are some extra coins in the "prefabs" folder for you to use!
-    ![](/assets/pinkPowerup.png) ![](/assets/redPowerup.png)
+    ![](en/assets/pinkPowerup.png) ![](en/assets/redPowerup.png)
 
 
 4. Make a portal that transports the player from one side of the map to another!
@@ -24,7 +24,7 @@
 
 6. Make some more animations! In the "Animations" folder you will find more images that you can make animations out of like running and sliding!
 
-![](/assets/Run.png) ![](/assets/Slide.png)
+    ![](en/assets/Run.png) ![](en/assets/Slide.png)
 
     * If you want a challenge try to make the players run when they get a speedup power up.
 
