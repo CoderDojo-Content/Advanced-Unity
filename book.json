@@ -2,5 +2,6 @@
     "plugins": ["theme-coderdojosushicard"],
     "variables": {
         "seriesSubject": "Unity"
+        "title": "Advanced Unity"
     }
 }
