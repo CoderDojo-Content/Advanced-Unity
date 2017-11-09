@@ -2,7 +2,7 @@
 
 2. When working with an OOP language, such as C#, you need to decide which objects you will be programming. Our game will have two players, so you need two player objects. These players will control two sprites that do the same thing. So, you can use a single class or struct as a template for both of these objects.
 
-    ![](/assets/movement.png)
+    ![](en/assets/movement.png)
 
 3. When you create a template, you need to choose between a *Structure* (struct) or a *class*. The most important difference is that a *class* is a *reference type* and a *struct* is a *value type*. Basically, this means you can access a value in a struct, and in a *class* you can access the value and change it. 
 

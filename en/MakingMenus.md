@@ -5,7 +5,7 @@
 3. Now that you have a new scene, you can start creating the menu. In the **Inspector** go (**Create > UI > Button**). Do this twice so you have two buttons and move them into a place that you like. Change the *Text* object under the buttons in the hierarchy to "Play!" and "levels".
 
 4. Now you can give your game a name or add images to it. This will make it your own game! Here's what mine looks like:
-![](/assets/mainmenu.png)
+    ![](en/assets/mainmenu.png)
 
 5. You can use the "levelsmenu" scene that I already created, but feel free to change it up so it looks how you want it to! 
 
@@ -24,7 +24,7 @@
 
 8. Go to the **Inspector** for your "play" button and find the "Button (Script)" property. Drag the "buttonController" object from the **Hierarchy** to the bottom left box in the **On Click ()** property. Where it says **No Function**, click the drop down and select the script you created earlier, then select *nextScene(string)*. Finally, write the name of the scene you want to switch to in the bottom right box. It should look like this if youve done it correctly:
 
-    ![](/assets/onclick.png)
+    ![](en/assets/onclick.png)
     
 9. You can do the same process as step 8 to the "levels" button, but all you need to do is change the scene name in the bottom right box to "levelsmenu" and the button will switch to that scene instead.
 
