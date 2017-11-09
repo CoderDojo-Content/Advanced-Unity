@@ -11,12 +11,16 @@
     * Note: There are some extra coins in the "prefabs" folder for you to use!
     ![](/assets/pinkPowerup.png) ![](/assets/redPowerup.png)
 
-4. Try to make the platformer a side scroller. 
+
+4. Make a portal that transports the player from one side of the map to another!
+
+6. Make an obstacle that moves back and forth on a platform. If it touches a player, then you should make that player lose a life.
+
+5. Try to make the platformer a side scroller. 
 
     * Hint: You can make it seem like the player is moving by creating the prefab on one side of the screen then moving it to the other. (Remember to destroy the platform when it's off the screen!)
        
-       
-5. Make a portal that transports the player from one side of the map to another!
+
 
 6. Make some more animations! In the "Animations" folder you will find more images that you can make animations out of like running and sliding!
 
