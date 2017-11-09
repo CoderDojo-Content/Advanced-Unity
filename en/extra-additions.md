@@ -23,8 +23,10 @@
 
 
 6. Make some more animations! In the "Animations" folder you will find more images that you can make animations out of like running and sliding!
+    
+    * If you want a challenge try to make the players run when they get a speedup power up.
 
     ![](/assets/Run.png) ![](/assets/Slide.png)
 
-    * If you want a challenge try to make the players run when they get a speedup power up.
+    
 
