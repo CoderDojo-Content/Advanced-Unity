@@ -1,6 +1,6 @@
-1. Time to use the class you just created! In the "PlayerMover" script you will find a some code already completed. This code has already been covered in previous tutorials, feel free to take a look through the code to understand what it does!
+1. Time to use the class you just created! In the "StartingCodeForPlayer" script you will find a some code already completed. This code has already been covered in previous tutorials, feel free to take a look through the code to understand what it does!
 
-2. Creating a class is done by using the constructor you created earlier. You also need to *Instantiate* a new object. In C# this is done with the **new** keyword. Add the line `cat = new Player("cat")` in the Start() function. It will create a new player object that's variable name is cat (do the same but replace cat with dog). Add declarations (you can use `public Player dog;` and `public Player cat;`) for both a Player cat and a Player dog above `voidStart()`.
+2. Creating an **object** is done by using the constructor you created earlier. This is called **instantiating** an object. In C# this is done with the **new** keyword. Add the line `cat = new Player("cat")` in the Start() function. It will create a new player object that's variable name is cat (do the same but replace cat with dog). Add declarations (you can use `public Player dog;` and `public Player cat;`) for both a Player cat and a Player dog above `voidStart()`.
 
     * Note - Make sure your code looks like this in the PlayerController *class*:
     ```csharp
