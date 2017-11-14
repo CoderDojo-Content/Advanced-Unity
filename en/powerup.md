@@ -1,6 +1,6 @@
 1. You can have players get a bonus when they pick up a blue coin! Lets speed them up for 5 seconds.
 
-2. To create a powerup you should make a method (a function in a class) in your *PlayerController* class. You will be controlling your player so it makes sense to put it there. So add this function: 
+2. To create a powerup you should make a method (a function in a class) in your *PlayerController* class. A powerup controls your player so it makes sense to put it in the *PlayerController* class. So add this function: 
     ```csharp
     void powerupSpeedUp(Player player)
     {
