@@ -2,7 +2,7 @@
 
 2. You are going to create an **array**. An **array** is a collection of elements (of the same type) that can be accessed with an **index**. In C# programming an **index** starts at 0. So, the first item in an array will be the 0th element. An array with 3 elements in it will be elements 0, 1, and 2.
 
-3. you will create an **array** of **GameObjects**. There are three hearts for each player, so you can use an **array** because they are all the same type (type GameObject). Declaring an array is easy, all you need to do is add brackets to the end of a data type (example: `int[] numbers;`). To create an array of hearts put this line of code `private GameObject[] hearts` under `// Array declaration` in the "collisions" script.
+3. You will create an **array** of **GameObjects**. There are three hearts for each player, so you can use an **array** because they are all the same type (type GameObject). Declaring an array is easy, all you need to do is add brackets to the end of a data type (example: `int[] numbers;`). To create an array of hearts put this line of code `private GameObject[] hearts` under `// Array declaration` in the "collisions" script.
 
 4. Now you need to **initialize** the array. (**Initializing** is when you create an array, the number of elements in a C# array need to be known when you create the array). To do this you need to use the *new* keyword again. You need to know the size of an array when it is created, and you know it should be three because their are three hearts! So, this line will initialize your array with 3 elements: `hearts = new GameObject[3];`.
  * Note: Whatever number you put where the three is will change the size of an array. so `hearts = new GameObject[10];` will create an array with ten *elements*
