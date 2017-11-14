@@ -10,4 +10,4 @@
 
 5. Anywhere you need to add code look for a line comment that looks like this: `/*####################################################################*/`.  
 
-6. You will build your game with WebGL, downloading it before you get to the dojo will save you time! To do this go to (**File > Build Settings**) and select **WebGL** from the **Platform** list. Now, click the **Open Download Page** button on the right of the **Platform** list.  
+6. You will build your game with WebGL. Downloading Unity's WebGL package before you get to the dojo will save you time! To do this go to (**File > Build Settings**) in Unity and select **WebGL** from the **Platform** list. Now, click the **Open Download Page** button on the right of the **Platform** list.  

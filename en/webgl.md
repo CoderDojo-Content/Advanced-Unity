@@ -4,4 +4,8 @@
 
 3. Go to (**File > Build Settings**) and select **WebGL** from the list of platforms. Now click **Build**.
 
-4. This will take a while! It might look like its stuck, but just wait until it's finished.
+4. A folder selector will show up. Create a new file and select it to save the build in.
+
+5. This will take a while! It might look like its stuck, but just wait until it's finished.
+
+6. Now if you go to the folder you created earlier and open it, there will be an *index.html*. Open the file and your game should load in an internet browser!
