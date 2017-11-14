@@ -1,13 +1,13 @@
 1. Now you have the basics of your platformer game working you can add some new features!
 
-2. A moving platform would be fun. You already know how to move a platform with *transform.position*, but its not easy to create a function that will move a platform back and forth! Luckily, Unity's developers created a function that lets you easily move a platform: `Mathf.PingPong()`. 
+2. A moving platform would be fun. You already know how to move an GameObject with `transform.position`, but its not easy to create a function that will move a platform back and forth! Luckily, Unity's developers created a function that lets you easily move a platform: `Mathf.PingPong()`. 
 
 3. To make a moving platform open the "level2" scene from the scenes folder. Also create a C# script and attach it to the top platform in the "level2" scene. Now add this line into the `Update()` function of your new script:
 
     ```csharp
     transform.position = new Vector3((Mathf.PingPong(Time.time, 5f) - 2.5f), transform.position.y, transform.position.z);
     ```
-    `Mathf.PingPong` will return a value between 0 and the second parameter (will return between 0-5 in this code). You then need to subtract half the value so the number returned is between -2.5 and 2.5. This number is going to be the x position of the platform for the transform.position function!
+    `Mathf.PingPong` will return a value between 0 and the second parameter (will return between 0-5 in this code). You then need to subtract half the value so the number returned is between -2.5 and 2.5 (that will make it so the platform is centered). This number is going to be the x position of the platform for the transform.position function!
     
 4. Open the "level3" scene. You should see an evil red cat! When the evil cat sees either of the players they should lose a life! How do you make the cat see? The answer is by adding **Colliders**. **Colliders** are the objects in Unity that trigger a *collision*. You've used *collisions* to do different things in the past. This time you will make an invisible **Collider** so it looks like the evil cat can "see".
 
