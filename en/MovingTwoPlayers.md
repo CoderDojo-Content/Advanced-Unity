@@ -14,11 +14,11 @@
         ...
     ```
 
-3. Now you have two objects, you need to get input from the user and assign what the user input does. You can use the `mover(Player player, KeyCode left, KeyCode right, KeyCode up)` function to do this. Put these lines of code into the `void Update()` function:
+3. Now you have two objects, you need to get input from the user and assign what the user input does. You can use the `mover(Player player, KeyCode left, KeyCode right, KeyCode up)` function in the "StartingCodeFor Player" script. Put these lines of code into the `void Update()` function:
     
     ```csharp
-    mover(dog, KeyCode.A, KeyCode.D, KeyCode.W);
-    mover(cat, KeyCode.LeftArrow, KeyCode.RightArrow, KeyCode.UpArrow);
+    startingcode.mover(dog, KeyCode.A, KeyCode.D, KeyCode.W);
+    startingcode.mover(cat, KeyCode.LeftArrow, KeyCode.RightArrow, KeyCode.UpArrow);
     ```
     ![https://docs.unity3d.com/ScriptReference/KeyCode.html](/assets/directions.png)
     
